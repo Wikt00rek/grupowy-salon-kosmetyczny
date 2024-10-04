@@ -12,3 +12,24 @@
 .footer{
     background-color: #E1BEE7;
 }
+body {
+    font-family: 'Cambria', serif; 
+}
+.left-block {
+    background-color: #E1BEE7; 
+    width: 25%; 
+    float: left; 
+}
+.right-block {
+    float: right;
+    width: 70%; 
+}
+
+h1, h2, h3 {
+    color: #5E35B1; 
+}
+
+p {
+    line-height: 1.5; 
+    margin: 0; 
+}

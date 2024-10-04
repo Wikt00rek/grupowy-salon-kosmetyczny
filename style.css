@@ -1,0 +1,27 @@
+/* Ustawienia domyślne dla całego dokumentu */
+body {
+    font-family: 'Cambria', serif; /* Ustawienie kroju czcionki */
+}
+
+/* Styl dla lewych bloków */
+.left-block {
+    background-color: #E1BEE7; /* Kolor tła */
+    width: 25%; /* Szerokość */
+    float: left; /* Umożliwia obok siebie */
+}
+
+/* Styl dla pozostałych elementów */
+.right-block {
+    float: right; /* Umożliwia obok siebie */
+    width: 70%; /* Szerokość dla prawego bloku */
+}
+
+/* Przykładowe stylizacje dla innych elementów */
+h1, h2, h3 {
+    color: #5E35B1; /* Kolor nagłówków */
+}
+
+p {
+    line-height: 1.5; /* Wysokość linii dla lepszej czytelności */
+    margin: 0; /* Usunięcie domyślnego marginesu */
+}

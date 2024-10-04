@@ -1,0 +1,12 @@
+<div class="left-block">
+    <h2>Nasza oferta</h2>
+    <ol>
+        <li>Oczyszczanie twarzy
+            <ul>
+                <li>Peeling</li>
+                <li>Maska</li>
+            </ul>
+        </li>
+        <li>Masaż Makijaż</li>
+    </ol>
+</div>

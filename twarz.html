@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salon kosmetyczny</title>
+    <link rel="stylesheet" href="styl7.css" />
+  </head>
+  <body>
+    <div class="site">
+      <aside class="left">
+        <nav>
+          <h2>Nasza oferta</h2>
+          <ol>
+            <li>
+              <a href="twarz.html">Oczyszczanie twarzy</a>
+              <ul>
+                <li>Peeling</li>
+                <li>Maska</li>
+              </ul>
+            </li>
+            <li>Masaż</li>
+            <li>Makijaż</li>
+          </ol>
+          <a href="index.html" class="a-index">Strona główna</a>
+        </nav>
+        <section>
+          <img src="obraz1.jpg" alt="Personel" />
+        </section>
+      </aside>
+      <section class="right">
+        <header>
+          <h1>Usługi kosmetyczne</h1>
+        </header>
+        <main>
+          <h3>Kalkulator cen wizyty</h3>
+          <!-- INFO: Użycie labelek nie jest wymagane w tym zadaniu. -->
+          <div>
+            <input type="checkbox" id="peeling" />
+            <label for="peeling">Peeling</label>
+          </div>
+          <div>
+            <input type="checkbox" id="maska" />
+            <label for="maska">Maska</label>
+          </div>
+          <div>
+            <input type="checkbox" id="masaz" />
+            <label for="masaz">Masaż twarzy</label>
+          </div>
+          <div>
+            <input type="checkbox" id="makijaz" />
+            <label for="makijaz">Makijaż</label>
+          </div>
+          <p id="status"></p>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>

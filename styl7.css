@@ -1,50 +1,68 @@
-.left{
-    background-color: #E1BEE7;
+.site {
+    display: flex;
+}
+.site aside, .side section {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left {
     width: 25%;
-    height: 500px;
 }
-.right{
+.left nav, .left section {
     background-color: #E1BEE7;
-    width: 25%;
-    height: 500px;
+    /* width: 25%; */ /* ze względu na użycie flexa */
 }
-
-.footer{
-    background-color: #E1BEE7;
+.left nav {
+    height: 400px;
 }
-body {
-    font-family: 'Cambria', serif; 
+.left section {
+    height: 330px;
 }
-.left-block {
-    background-color: #E1BEE7; 
-    width: 25%; 
-    float: left; 
+.right {
+    width: 75%;
 }
-.right-block {
-    float: right;
-    width: 70%; 
+header, main {
+    /* width: 75%; */ /* ze względu na użycie flexa */
+    font-size: 170%;
+    text-align: center;
 }
-
-h1, h2, h3 {
-    color: #5E35B1; 
+header {
+    background-color: #9C64A6;
+    color: white;
+    height: 150px;
+    letter-spacing: 5px;
 }
-
-p {
-    line-height: 1.5; 
-    margin: 0; 
+main {
+    color: indigo;
+    height: 580px;
 }
-
+footer {
+    background-color: #9C64A6;
+    color: white;
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+}
+ul {
+    list-style-type: circle;
+}
 img {
     padding: 4px;
     margin: 15px;
 }
-
 img:hover {
     padding: 3px;
     border: 1px dashed indigo;
 }
 .a-index {
-    padding: 25px;ul {
-    list-style-type: circle;
-    h1 {
-        margin: 0;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+}
